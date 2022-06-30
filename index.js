@@ -10,7 +10,6 @@ for (var i = 0; i < document.querySelectorAll(".drum").length; i++) {
             var elementClass = document.querySelector("." + event.key).classList[0]
             var sound = new Audio("sounds/" + elementClass + ".mp3")
             sound.play()
-            document.querySelector("." + elementClass).classList.add("flashed")
     });
 }
 
